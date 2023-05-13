@@ -37,5 +37,5 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Author
 
-<!-- A short section about the author -->
- [Github](https://github.com/syd9f) 
+Sydnie Farrell is a student at Columbia Engineering Coding Bootcamp, studying Full Stack Web Development.
+- [Github](https://github.com/syd9f) 
