@@ -63,7 +63,7 @@ Following the final <em>[bracket expression](#bracket-expressions)</em> in our c
 
 In our code, there are 3 <em>subexpressions</em>, representing the 3 parts of an email address: the username - `([a-z0-9_\.-]+)`, domain name - `([\da-z\.-]+)`, and extension - `([a-z\.]{2,6})`(username@domain-name.extension). In order to check each section individually for their respective requirements, grouping constructs are required.
 
-Grouping constructs use parentheses `()` to separate the regex, dividing the three sections of our code. Within the parentheses of each group contains a <em>[bracket expression](#bracket-expressions)</em> and a <em>[quantifier](#quantifiers)</em> for that section. 
+Grouping constructs use parentheses `()` to separate the regex into groups, dividing the three sections of our code. Within the parentheses of each group contains a <em>[bracket expression](#bracket-expressions)</em> and a <em>[quantifier](#quantifiers)</em> for that section. 
 
 
 ### Bracket Expressions
@@ -95,11 +95,18 @@ The code that we are analyzing above includes 3 bracket expressions:
 
 ### Character Classes
 
+`/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
+
+A character class is used in a regex to define a set of characters. 
+
 ### The OR Operator
 
-### Flags
+`/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
+
 
 ### Character Escapes
+
+`/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 
 ## Author
 
